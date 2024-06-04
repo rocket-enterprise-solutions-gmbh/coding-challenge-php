@@ -3,6 +3,7 @@
 ## Requirements
 
 * Local PHP CLI (ideally 8.3 or later).
+* Local composer CLI
 
 ## Setup
 
@@ -10,4 +11,5 @@
 2. run `composer install`
 3. run `cp .env.example .env`
 4. run `php artisan migrate`
+4. run `php artisan key:generate`
 3. run `php artisan serve`

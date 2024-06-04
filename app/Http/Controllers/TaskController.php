@@ -12,7 +12,5 @@ class TaskController
         foreach ($request->get('tasks') as $task) {
             DB::insert('insert into tasks (name) values (?)', [$task]);
         }
-
-        return true;
     }
 }
