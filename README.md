@@ -10,4 +10,4 @@
 2. run `composer install`
 3. run `cp .env.example .env`
 4. run `php artisan migrate`
-3. run `php artisan serve'
+3. run `php artisan serve`
